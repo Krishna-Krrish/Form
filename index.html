@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Application</title>
+    <link rel="icon" href="./2.png">
+</head>
+
+<body>
+    <div class="main">
+
+        <h1>STUDENT FORM 📝</h1>
+        <div class="container">
+            <form class="form">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td><input type="text" placeholder="Enter Name" id="inputName"></td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td><input type="text" placeholder="Enter Age" id="inputAge"></td>
+                    </tr>
+                    <!-- <tr>
+                        <th>Gender</th>
+                        <td><input onchange="onGenderChange(event)" type="radio" name="gender" id="genderMale" value="Male" checked> Male
+                            <input onchange="onGenderChange(event)" type="radio" name="gender" id="genderFemale" value="Female"> Female
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <th>Gender</th>
+                        <td>
+                            <select name="" id="selectGender">
+                                <option value="M" id="maleOption">Male</option>
+                                <option value="F" id="femaleOption">Female</option>
+                                <option value="O" id="othersOption">Others</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Select Course</th>
+                        <td>
+                            <select name="" id="selectCourse">
+                                <option value="html" id="htmlOption">HTML</option>
+                                <option value="css" id="cssOption">CSS</option>
+                                <option value="js" id="jsOption">JavaScript</option>
+                                <option value="react" id="reactOption">React</option>
+                                <option value="python" id="pythonOption">Python</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>E-mail</th>
+                        <td><input type="email"  placeholder="Enter mail" id="inputMail"></td>
+                    </tr>
+                </table>
+                <button id="formbtn">Save</button> <br>
+                <input type="reset" id="formReset">
+            </form>
+        </div>
+
+        <div class="table-container">
+            <table id="table-line">
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>GENDER</th>
+                    <th>COURSE</th>
+                    <th>EMAIL</th>
+                    <!-- <th>ACTION</th> -->
+                </tr>
+        </div>
+        </table>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

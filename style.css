@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+.main{
+    margin-top: 30px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    text-shadow:1px 1px 4px rgb(0, 216, 198),1px 1px 7px rgb(248, 247, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.form{
+    border: 1px solid black;
+    padding:20px;
+    background-color: rgb(28, 28, 29);
+    border-radius: 10px;
+    border:1px solid white;
+    box-shadow: 5px 1px 40px rgb(94, 93, 93),5px 1px 80px rgb(10, 10, 10);
+    color: white;
+}
+.form table tr{
+    font-size: 20px;
+}
+.form table th{
+    margin-top: 50px;
+    padding: 10px;
+    /* border: 1px solid black */
+}
+.form input{
+    padding: 2px;
+    box-sizing: border-box;
+    border: none;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    border-radius:20px;
+    background-color: transparent;
+    padding-left:20px;
+    padding-right: 60px;
+    border-bottom:1px solid rgb(252, 250, 250);
+    color: white;
+
+}
+.form input:focus{
+    outline: none;
+}
+.form input::placeholder{
+    color: gray;
+}
+#selectGender{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    /* width: 200px; */
+    padding-left:20px;
+    padding-right:180px;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius:20px;
+    color: white;
+    cursor: pointer;
+
+}
+#selectGender option{
+    background-color:black;
+    cursor: pointer;
+}
+#selectGender:focus{
+    outline: none;
+}
+#selectCourse{
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: transparent;
+    /* width: 200px; */
+    padding-left:20px;
+    padding-right:170px;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius:20px;
+    color: white;
+    cursor: pointer;
+}
+#selectCourse:focus{
+    outline: none;
+}
+#selectCourse option{
+    background-color:black;
+    cursor: pointer;
+}
+#formReset{
+    margin-left: 22px;
+    padding:0 190px 0 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(24, 26, 26);
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+#formReset:hover{
+    background-color:#6c0056;
+    color: black;
+    /* border: none; */
+    border: 1px solid rgb(136, 134, 134);
+    box-shadow: 1px 1px 8px white ;
+}
+#formbtn{
+   margin-left: 22px;
+   padding:0 190px 0 160px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: rgb(24, 26, 26);
+   font-size: 25px;
+   border: none;
+   border-bottom: 1px solid white;
+   border-radius: 50px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.5s;
+   margin-top: 20px;
+}
+#formbtn:hover{
+   background-color:#6632ae;
+   color: black;
+   /* border: none; */
+   border: 1px solid rgb(136, 134, 134);
+   box-shadow: 1px 1px 8px white ;
+}
+#genderMale{
+    accent-color:#6632ae;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 20px;
+}
+#genderFemale{
+    accent-color:rgb(235, 109, 186);
+    cursor: pointer;
+    margin-left: 20px;
+}
+#label-radio{
+    cursor: pointer;
+}
+
+.table-container{
+    margin-top: 50px;
+    /* text-align: center; */
+    /* margin-left: 9%; */
+    /* background-color: aliceblue;
+    width: 44%;
+    padding:0 10% 0 10%; */
+    display: flex;
+    justify-content: center;
+
+}
+#table-line{
+    border: 1px solid black;
+    font-size: 20px;
+    font: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    box-shadow: 3px 1px 20px rgb(110, 110, 110),5px 1px 80px rgb(124, 123, 123);
+    background-color:rgb(232, 230, 236);
+    border-radius:10px;
+    padding: 5px;
+
+
+
+}
+#table-line th{
+    border: 1px solid black;
+    padding: 6px 50px 6px 50px;
+}
+#table-line td{
+    border: 1px solid black;
+    padding:10px 50px 10px 50px;
+    text-align: center;
+}
+#table-btn{
+    padding: 6px 20px 6px 20px;
+    background-color: red;
+    color:white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+#table-btn:hover{
+    background-color: rgb(104, 6, 6);
+
+}
+
