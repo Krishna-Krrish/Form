@@ -26,7 +26,7 @@ function displayDetails(event){
 
     let display=document.getElementById("table-line")
     let newRow=display.insertRow(row)
-    newRow.style.backgroundColor="blue";
+    newRow.style.backgroundColor="#412b47";
     newRow.style.color="white"
     
     let cell1=newRow.insertCell(0)
